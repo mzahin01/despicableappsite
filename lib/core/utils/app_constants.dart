@@ -26,11 +26,23 @@ abstract class AppConstants {
   ];
   static const List<Project> projects = [
     Project(
-      name: 'Juta Maro Tale Tale',
+      name: 'Tale Tale',
       imageUrl: 'assets/images/jutamaro.jpg',
       description:
           'where you can virtually slap despicable peoples with a shoe',
       previewLink: 'taletale.despicableapp.com',
+    ),
+    Project(
+      name: 'Coming Soon...',
+      imageUrl: 'assets/images/404.png',
+      description: '.',
+      previewLink: '.',
+    ),
+    Project(
+      name: 'Coming Soon...',
+      imageUrl: 'assets/images/404.png',
+      description: '.',
+      previewLink: '.',
     ),
   ];
 }

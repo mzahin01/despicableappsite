@@ -10,7 +10,7 @@ class ProjectImage extends StatelessWidget {
       flex: 2,
       fit: FlexFit.tight,
       child: Image.asset(
-        'imageUrl',
+        imageUrl,
         width: double.infinity,
         fit: BoxFit.cover,
         // errorWidget: (context, url, error) {
