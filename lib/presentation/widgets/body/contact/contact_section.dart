@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_enums.dart';
 import 'package:portfolio/core/utils/app_extensions.dart';
-
 import 'contact_intro.dart';
-import 'contact_form.dart';
 
 class ContactSection extends StatelessWidget {
   const ContactSection({super.key});
@@ -20,7 +18,6 @@ class ContactSection extends StatelessWidget {
                   child: ContactIntro(),
                 ),
                 SizedBox(width: 32),
-                Expanded(child: ContactForm()),
               ],
             )
           : const Column(
@@ -28,7 +25,6 @@ class ContactSection extends StatelessWidget {
               children: [
                 ContactIntro(),
                 SizedBox(height: 32),
-                ContactForm(),
               ],
             ),
     );

@@ -30,7 +30,7 @@ abstract class AppConstants {
       imageUrl: 'assets/images/jutamaro.jpg',
       description:
           'where you can virtually slap despicable peoples with a shoe',
-      previewLink: 'taletale.despicableapp.com',
+      previewLink: 'https://www.taletale.despicableapp.com',
     ),
     Project(
       name: 'Coming Soon...',
