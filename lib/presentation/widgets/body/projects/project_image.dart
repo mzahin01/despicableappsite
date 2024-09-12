@@ -13,13 +13,6 @@ class ProjectImage extends StatelessWidget {
         imageUrl,
         width: double.infinity,
         fit: BoxFit.cover,
-        // errorWidget: (context, url, error) {
-        //   return Icon(
-        //     Icons.error,
-        //     color: AppColors.darkColor,
-        //     size: 50,
-        //   );
-        // },
       ),
     );
   }
