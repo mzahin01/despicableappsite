@@ -33,15 +33,16 @@ abstract class AppConstants {
       previewLink: 'https://taletale.despicableapp.com/',
     ),
     Project(
-      name: 'Coming Soon...',
-      imageUrl: 'assets/images/404.png',
-      description: '.',
-      previewLink: '.',
+      name: 'Shohomot Vai',
+      imageUrl: 'assets/images/sv.jpeg',
+      description:
+          'A platform enabling Bangladeshi citizens to voice their opinions on reform initiatives proposed by the Interim Government.',
+      previewLink: 'https://sohomotvai.despicableapp.com/#/home',
     ),
     Project(
-      name: 'Coming Soon...',
-      imageUrl: 'assets/images/404.png',
-      description: '.',
+      name: 'Pookie Seal',
+      imageUrl: 'assets/images/404.jpeg',
+      description: 'Coming Soon...',
       previewLink: '.',
     ),
   ];
