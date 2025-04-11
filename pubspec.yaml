@@ -11,35 +11,46 @@ environment:
 dependencies:
   auto_size_text: ^3.0.0
   cached_network_image: ^3.4.0
-  cloud_firestore: ^4.14.0
+  cloud_firestore: ^5.6.6
   cupertino_icons: ^1.0.2
   equatable: ^2.0.5
-  firebase_core: ^2.24.2
+  firebase_core: ^3.13.0
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.2
+  flutter_bloc: ^9.1.0
   flutter_svg: ^2.0.2
   fluttertoast: ^8.2.5
   font_awesome_flutter: ^10.4.0
-  shimmer: ^2.0.0
+  shimmer: ^3.0.0
   universal_html: ^2.0.9
 
+dependency_overrides:
+  archive: ^4.0.5
+
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 
-  flutter_launcher_icons: "^0.12.0"
+  flutter_launcher_icons: "^0.14.3"
 
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/dev_img.png"
-  min_sdk_android: 21 # android min sdk min:16, default 21
+flutter_launcher_icons:
+  android: true  # Generates icons for Android
+  ios: true      # Generates icons for iOS
+  image_path: "assets/images/dev_img.png"  # Path to your icon image
+  min_sdk_android: 21 # (optional) Android minSdkVersion (default is 21)
   web:
     generate: true
     image_path: "assets/images/dev_img.png"
-
+    background_color: "#ffffff"  # Background color for web icons
+    theme_color: "#000000"  # Theme color
+  windows:
+    generate: true
+    image_path: "assets/images/dev_img.png"
+    icon_size: 128  # (optional) Default: 48, Range: 48-256
+  macos:
+    generate: true
+    image_path: "assets/images/dev_img.png"
 
 flutter:
 
